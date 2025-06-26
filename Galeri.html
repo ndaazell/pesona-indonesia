@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Galeri - Pesona Alam Indonesia</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 </head>
 <body>
 
@@ -17,28 +19,60 @@
     </nav>
   </header>
 
-  <section class="highlight">
+  <section>
     <h2>Galeri Wisata Indonesia</h2>
-    <div class="gallery-grid">
-      <img src="semeru.jpg" alt="">
-      <img src="gunungbromo.webp" alt="">
-      <img src="nusadua.jpg" alt="">
-      <img src="gunungbromo.webp" alt="">
-      <img src="candi.jpg" alt="">
-      <img src="raja.jpg" alt="">
-      <img src="rinjani.jpg" alt="">
-      <img src="candi.jpg" alt="">
-      <img src="pantaikuta.jpg" alt="">
-      <img src="pntaibali.webp" alt="">
-      <img src="arsitektur.jpg" alt="">
-      <img src="seni.jpg" alt="">
-      <img src="bahasa.jpg" alt="">
+
+    <h3>🏖 Pantai</h3>
+    <div class="gallery-grid" data-aos="fade-up">
+      <img src="pantaikuta.jpg" alt="Pantai Kuta">
+      <img src="pntaibali.webp" alt="Pantai Bali">
+      <img src="nusadua.jpg" alt="Pantai Nusa Dua">
     </div>
+
+    <h3>⛰ Gunung</h3>
+    <div class="gallery-grid" data-aos="fade-up">
+      <img src="semeru.jpg" alt="Gunung Semeru">
+      <img src="gunungbromo.webp" alt="Gunung Bromo">
+      <img src="rinjani.jpg" alt="Gunung Rinjani">
+    </div>
+
+    <h3>🏯 Candi</h3>
+    <div class="gallery-grid" data-aos="fade-up">
+      <img src="candi.jpg" alt="Candi Borobudur">
+      <img src="candi.jpg" alt="Candi Prambanan">
+    </div>
+
+    <h3>💧 Air Terjun</h3>
+    <div class="gallery-grid" data-aos="fade-up">
+      <img src="raja.jpg" alt="Air Terjun Raja Ampat">
+    </div>
+
+    <h3>🎭 Budaya & Seni</h3>
+    <div class="gallery-grid" data-aos="fade-up">
+      <img src="arsitektur.jpg" alt="Arsitektur Tradisional">
+      <img src="seni.jpg" alt="Seni Budaya">
+      <img src="bahasa.jpg" alt="Bahasa Daerah">
+    </div>
+
+    <h3>🎬 Video Wisata</h3>
+    <div class="gallery-grid" data-aos="fade-up">
+      <video controls width="100%" style="border-radius: 10px;">
+        <source src="WhatsApp Video 2025-06-26 at 12.25.35.mp4" type="video/mp4">
+        Browser kamu tidak mendukung video.
+      </video>
+      <video controls width="100%" style="border-radius: 10px;">
+        <source src="WhatsApp Video 2025-06-26 at 12.25.59.mp4" type="video/mp4">
+        Browser kamu tidak mendukung video.
+      </video>
+    </div>
+
   </section>
 
   <footer>
     <p>&copy; 2025 Pesona Alam Indonesia</p>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
